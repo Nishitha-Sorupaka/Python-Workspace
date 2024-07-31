@@ -1,0 +1,8 @@
+#Program for searching exactly one 'k'
+#RegExp23.py
+import re
+mattab=re.finditer("k","kvkkvkkkvkv")
+print("-"*50)
+for mat in mattab:
+	print("Start Index: {} End Index: {} Value: {}".format(mat.start(),mat.end(),mat.group()))
+print("-"*50)

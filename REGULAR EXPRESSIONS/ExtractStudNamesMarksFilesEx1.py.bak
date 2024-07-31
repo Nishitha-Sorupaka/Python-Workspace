@@ -1,0 +1,3 @@
+#Program for Extracting Student names and Marks where in the information present in File(student.data). by using Regular Expression.
+#ExtractStudNamesMarksFilesEx1.py
+import re

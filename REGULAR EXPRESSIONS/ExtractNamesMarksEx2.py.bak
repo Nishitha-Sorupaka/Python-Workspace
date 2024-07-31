@@ -1,0 +1,12 @@
+#Program for Extracting the names and Marks of the students from given text data
+#ExtractNamesMarksEx2.py
+import re
+gd="Rossum is the developer of python got 56 , Travis is the developer of numpy and got 55 , Kinney   is developer of pandas  and got 33 and Ritche   is the devloper of c lang and got 66"
+names=re.findall("[A-Z][a-z]+",gd)
+print(names)
+for name in names:
+	print("\t{}".format(name))
+marks=re.findall("\d{2}",gd)
+print(marks)
+for mark in marks:
+	print("\t{}".format(mark))

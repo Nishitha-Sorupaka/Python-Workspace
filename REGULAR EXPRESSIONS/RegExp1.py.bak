@@ -1,0 +1,10 @@
+#RegExp1.py
+import re
+gd="Python is an oop Lang.Python is also Fun Prog Lang"
+sd="poo"
+res=re.search(sd,gd) # here res is an object of re.Match Class or None Type
+if(res!=None):
+	print("Search is Successful")
+	print(res)
+else:
+	print(res)

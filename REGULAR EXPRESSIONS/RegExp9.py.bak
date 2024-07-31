@@ -1,0 +1,8 @@
+#Program for searching all lower Case Alphabets only
+#RegExp9.py
+import re
+mattab=re.finditer('[a-z]',"cAK@2aLp4#Gq8HbQw")
+print("-"*50)
+for mat in mattab:
+	print("Start Index: {} End Index: {} Value: {}".format(mat.start(),mat.end(),mat.group()))
+print("-"*50)

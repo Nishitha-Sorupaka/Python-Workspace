@@ -1,0 +1,8 @@
+#Program for searching All Alphabets(Upper & Lower)
+#RegExp15.py
+import re
+mattab=re.finditer('[a-zA-Z]',"!cAK@2aLp4#Gq8HbQw")
+print("-"*50)
+for mat in mattab:
+	print("Start Index: {} End Index: {} Value: {}".format(mat.start(),mat.end(),mat.group()))
+print("-"*50)

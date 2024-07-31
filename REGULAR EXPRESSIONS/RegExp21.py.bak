@@ -1,0 +1,8 @@
+#Program for searching for Digits
+#RegExp21.py
+import re
+mattab=re.finditer('[\d]',"!c AK@2a Lp4#Gq8 HbQw")
+print("-"*50)
+for mat in mattab:
+	print("Start Index: {} End Index: {} Value: {}".format(mat.start(),mat.end(),mat.group()))
+print("-"*50)

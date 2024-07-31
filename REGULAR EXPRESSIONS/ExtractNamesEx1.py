@@ -1,0 +1,8 @@
+#Program for Extracting the names of the students from given text data
+#ExtractNamesEx1.py
+import re
+gd="Rossum is the developer of python, Travis is the developer of numpy, Kinney   is developer of pandas and Ritche   is the devloper of c lang"
+names=re.findall("[A-Z][a-z]+",gd)
+print(names)
+for name in names:
+	print("\t{}".format(name))
