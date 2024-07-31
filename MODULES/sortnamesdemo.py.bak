@@ -1,0 +1,8 @@
+#sortnamesdemo.py
+'''
+import sortnames
+sortnames.sortnames() #function call 
+'''
+from sortnames import sortnames
+sortnames()
+
