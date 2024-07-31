@@ -1,0 +1,3 @@
+#invalid.py
+
+class InvalidInputError(Exception):pass

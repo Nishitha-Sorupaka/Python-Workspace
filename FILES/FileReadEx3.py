@@ -1,0 +1,15 @@
+#This program reads one line at a time from file---readline()
+#FileReadEx3.py
+with open("addr.info","r") as fp:
+	line=fp.readline()
+	print(line)
+	line=fp.readline()
+	print(line)
+	line=fp.readline()
+	print(line)
+	line=fp.readline()
+	print(line)
+	line=fp.readline()
+	print(line)
+	line=fp.readline()
+	print(line)

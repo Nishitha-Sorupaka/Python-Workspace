@@ -1,0 +1,7 @@
+#This program writes iterable objects to the files---writelines()
+#FileWriteEx2.py
+s={30,"X",48.33,"CPP"}
+with open("stud.addr","a") as fp:
+	fp.writelines(str(s)+"\n")
+	print("\nIterable object data written to the file:")
+	

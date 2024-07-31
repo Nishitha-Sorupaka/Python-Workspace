@@ -1,0 +1,7 @@
+#kvr.py
+
+class KvrDivisionError(Exception):pass
+
+
+
+#Here KvrDivisionError comes under programmar defined exception sub class

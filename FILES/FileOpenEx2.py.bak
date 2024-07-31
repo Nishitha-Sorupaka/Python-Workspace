@@ -1,0 +1,12 @@
+#FileOpenEx2.py
+fp=open("stud.info","w")
+print("File opened in Write mode successfully !")
+print("File opened in Read Mode Successfully")
+	print("Type of fp=",type(fp))
+	print("="*50)
+	print("File Name=",fp.name) #Gives name of the file
+	print("File Mode=",fp.mode) #Gives File Opening Mode-r
+	print("Is stud.info readable?",fp.readable()) # True
+	print("Is stud.info writable?",fp.writable()) # False
+	print("Is File closed?",fp.closed) # False
+	print("="*50)

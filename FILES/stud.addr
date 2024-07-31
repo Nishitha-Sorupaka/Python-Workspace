@@ -1,0 +1,4 @@
+[10, 'Nishu', 33.33, 'Python']
+(20, 'Where', 28.33, 'Java')
+{'X', 48.33, 'CPP', 30}
+{10: 'Python', 20: 'CPP', 30: 'Django'}
