@@ -1,0 +1,5 @@
+#innerloopex1.py
+for i in range(1,6):
+	print("Value of i={}".format(i))
+	for j in range(1,4):
+		print("\tValue of j={}".format(j))

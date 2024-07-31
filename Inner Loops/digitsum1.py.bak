@@ -1,0 +1,12 @@
+#digitsum1.py
+n=int(input("Enter any Number:"))
+if(n<=0):
+	print('Invalid input')
+else:
+	str=str(n)
+	sum=0
+	for x in str:
+		d=int(x)
+		sum=sum+d
+	else:
+		print("Sum= {}".format(sum))
