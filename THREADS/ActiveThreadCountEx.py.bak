@@ -1,0 +1,11 @@
+#Program for finding Number of Threads in program
+#ActiveThreadCountEx.py
+import threading
+print("Default Thread Name=",threading.current_thread().name)
+print("By Default, Number of Active Threads=",threading.active_count())
+t=threading.current_thread()
+#tname=t.getName()---Not recommended because  DeprecationWarning: getName() is deprecated, get the name attribute instead
+tname=t.name
+print("Default Thread Name=",tname)
+print("=======OR================")
+print("Default Thread Name=",threading.current_thread().name)

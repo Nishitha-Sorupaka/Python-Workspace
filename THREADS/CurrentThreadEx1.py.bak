@@ -1,0 +1,7 @@
+#Program for obtaining default Thread(MainThread)
+#CurrentThreadEx1.py
+import threading
+t=threading.current_thread()
+tname=t.getName()
+print("Default Thread Name=",tname)
+print(t.name)
