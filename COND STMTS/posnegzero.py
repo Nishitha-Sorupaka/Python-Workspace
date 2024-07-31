@@ -1,0 +1,8 @@
+#Wap which will accept a numerical value and decide whether it is positive or negative or zero?
+n=int(input("Enter a Number:"))
+if(n>0):
+	print("{} is a positive number".format(n))
+if(n==0):
+	print("{} is equal to zero".format(n))
+if(n<0):
+	print("{} is a negative number".format(n))

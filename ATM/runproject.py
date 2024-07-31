@@ -1,0 +1,15 @@
+#runproject.py
+import getpass,sys
+from atmmain import sbi
+def runatm():
+	ctr=0
+	while(True):
+		pin=getpass.getpass(prompt="Enter your pin: ")
+		if(pin=="7395"):
+			sbi()
+		else:
+			print("Your pin is invalid, try again")
+			ctr=ctr+1
+			if(ctr==3):
+				print("Your card is blocked")
+				sys.exit()

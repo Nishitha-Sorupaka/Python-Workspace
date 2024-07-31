@@ -1,0 +1,32 @@
+#banking.py
+from atmexceptions import *
+
+bal=500 #Global Variable
+
+def deposit():
+	damt=float(input("Enter the Amount you want to Deposit: ")) #Value Error
+	if(damt<=0):
+		raise DepositError
+	else:
+		global bal
+		bal=bal+damt
+		print("Your Account xxxxx123 is credited with INR : {}".format(damt))
+		print("Your Current Balance: {}".format(bal))
+
+def withdraw():
+	wamt=float(input("Enter the Amount you want to Withdraw: ")) #Value Error
+	if(wamt<=0):
+		raise WithdrawError
+	else:
+		global bal
+		if((wamt+500)>bal):
+			raise InsufficientFundError
+		else:
+			bal=bal-wamt
+			print("Your Account xxxxx123 is debited with INR : {}".format(wamt))
+			print("Your Current Balance: {}".format(bal))
+
+
+
+def balenquiry():
+	print("Your Current Balance: {}".format(bal))

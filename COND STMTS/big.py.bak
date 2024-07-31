@@ -1,0 +1,12 @@
+#Wap which will accept two numerical integer values and decide the biggest among them and equality of the numbers?
+#big.py
+
+n1=float(input("Enter Number1:"))
+n2=float(input("Enter a Number2:"))
+if(n1>n2):
+	print("{} is a Bigger number".format(n1))
+else:
+	if(n1<n2):
+		print("{} is Smaller number".format(n1))
+	else:
+		print("{} is equal to {}".format(n1,n2))

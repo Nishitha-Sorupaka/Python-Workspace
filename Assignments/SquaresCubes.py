@@ -1,0 +1,13 @@
+#SquaresCubes.py
+n=int(input("Enter the number until which you want to enter sqaures from 1 to Number Itself: "))
+nsum,sqsum,csum=0,0,0
+print("-"*50)
+print("\tNumber:\tSquare\tCube")
+for i in range(1,n+1):
+	print("\t{}\t{}\t{}".format(i,i**2,i**3))
+	nsum=nsum+i
+	sqsum=sqsum+i**2
+	csum=csum+i**3
+print("-"*50)
+print("Sum:\t{}\t{}\t{}".format(nsum,sqsum,csum))
+print("-"*50)
