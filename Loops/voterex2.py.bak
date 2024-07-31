@@ -1,0 +1,10 @@
+#voterex2.py
+
+while(True):
+	age=int(input("Enter the age of the Citizen: "))
+	if age>=18:
+		print("Your age is {} and you are eligible to vote".format(age))
+	break
+
+else:
+	print("Your age is {} and you are not eligible to vote".format(age))

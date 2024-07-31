@@ -1,0 +1,20 @@
+#listex1.py
+lst=[10,20,"Python","Java",True,34.56] #Here lst is called Iterable object
+print('------------------------')
+print("By using for loop")
+print('------------------------')
+for x in lst[2:4]:
+	print("\t{}".format(x))
+else:
+	print('------------------------')
+
+print('------------------------')
+print("By using while loop")
+print('------------------------')
+i=0
+while(i<=len(lst)-1):
+	print("\t{}".format(lst[i]))
+	i=i+1
+else:
+	print('------------------------')
+

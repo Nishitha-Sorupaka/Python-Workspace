@@ -1,0 +1,27 @@
+#Wap which will accept dynamic no.of values in list and print the list elements. Accept an element from keyboard and search in the list. If element is found then display its position of index. Otherwise display element does not exist
+#searchprog.py
+n=int(input("Enter the number of values you want to insert in the List: "))
+if(n<=0):
+	print("Invalid Input")
+lst=list()
+i=1
+for i in range(i,n+1):
+	print("Enter {} value: ".format(i))
+	val=int(input())
+	lst.append(val)
+else:
+	print("List of Elements: ")
+	for val in lst:
+		print(val)
+	print("Enter the value you want to search: ")
+	selement=int(input())
+	res=False
+	for i in range(0,len(lst)):
+		if(lst[i]==selement):
+			res=True
+			break
+	if(res):
+		print("Element- {} is found in the list at the index: {}".format(selement,i))
+	else:
+		print("Element not found in the list")
+

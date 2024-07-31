@@ -1,0 +1,13 @@
+##Program for Converting JSON data into Dict Type----json.loads()
+#JsonDataToDictData.py
+import json
+#Take json data
+jsondata='{"SID":"100","SNAME":"ROSSUM","MARKS":"34.56","CNAME":"OUCET"}'
+print(jsondata,type(jsondata))
+#Convert Json data into dicttype data
+dictdata=json.loads(jsondata)
+print(dictdata,type(dictdata))
+print("-"*50)
+for k,v in dictdata.items():
+	print("\t{}\t{}".format(k,v))
+print("-"*50)
