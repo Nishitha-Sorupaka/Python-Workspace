@@ -1,0 +1,15 @@
+#Program to demonstrate the concept of relational operators
+#Relational Operators
+#rop.py
+a=float(input("Enter value of a:"))
+b=float(input("Enter value of b:"))
+print("{}>{}={}".format(a,b,a>b))
+print("{}>{}={}".format(a,b,b>a))
+print("{}<{}={}".format(a,b,a<b))
+print("{}<{}={}".format(a,b,b<a))
+print("{}=={}={}".format(a,b,a==b))
+print("{}!={}={}".format(a,b,a!=b))
+print("{}>={}={}".format(a,b,a>=b))
+print("{}>={}={}".format(a,b,b>=a))
+print("{}<={}={}".format(a,b,a<=b))
+print("{}<={}={}".format(a,b,b<=a))
