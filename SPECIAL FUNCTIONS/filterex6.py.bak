@@ -1,0 +1,9 @@
+#filterex6.py
+print("Enter the elements dynamically from KBD seperated by space:")
+lst=[int(x) for x in input().split()]
+print("Content of List=",lst)
+print("-"*50)
+print("Original Elements of list:{}".format(lst))
+print("-"*50)
+
+

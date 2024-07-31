@@ -1,0 +1,12 @@
+#mapex1.py
+def hike(sal):
+	sal=sal+sal*(2/100) # sal=sal*1.02
+	return sal
+
+#main program
+oldsallist=[10,20,5,30,40]
+obj=map(hike,oldsallist)
+print("Type of obj=",type(obj)) #<class, 'Map'>
+newsallist=list(obj)
+print("Old Salary List={}".format(oldsallist))
+print("New Salary List={}".format(newsallist))

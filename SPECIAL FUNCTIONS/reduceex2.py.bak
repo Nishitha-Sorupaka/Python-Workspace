@@ -1,0 +1,7 @@
+#reduceex2.py
+import functools
+print("Enter list of words seperated by space:")
+lst=[str(val) for val in input().split()]
+res=functools.reduce(lambda x,y:x+" "+y,lst)
+print("Type of res=",type(res))
+print("Sentence =",res)

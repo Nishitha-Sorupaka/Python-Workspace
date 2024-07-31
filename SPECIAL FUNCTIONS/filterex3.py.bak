@@ -1,0 +1,8 @@
+#filterex3.py
+decide=lambda n: n>0
+
+
+#main program
+lst=[10,20,30,-50,-11,-21,0,44,22,-9,12]
+ps=tuple(filter(lambda n: n>0,lst))
+print("Positive Elements=",ps)
