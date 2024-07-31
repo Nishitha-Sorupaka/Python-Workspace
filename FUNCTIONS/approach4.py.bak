@@ -1,0 +1,15 @@
+#Functions
+#approach4.py
+
+
+
+def sumop():
+	a=int(input("Enter First Value:"))
+	b=int(input("Enter Second Value:"))
+	c=a+b
+	return c
+
+
+
+res=sumop()
+print("Sum={}".format(res))

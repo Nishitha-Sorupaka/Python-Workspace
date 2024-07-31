@@ -1,0 +1,22 @@
+ #This program demonstrates the concept of Variable Length Arguments
+ #purevarlenargsex1.py 
+
+def disp(*a):
+	for val in a:
+		print("{}".format(val),end=' ')
+	print()
+
+
+
+
+ #main program
+disp(10) #Function Call
+
+
+disp(10,20)  #Function Call
+disp(10,20,30) #Function Call
+disp(10,20,30,40) #Function Call 
+disp(10,20,30,40,50) #Function Call
+disp(10,20,30,40,50,"KVR") #Function Call
+disp("JAVA","PYTHON") #Function Call
+disp(True) #Function Call 

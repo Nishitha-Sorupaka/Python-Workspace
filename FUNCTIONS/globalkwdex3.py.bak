@@ -1,0 +1,14 @@
+#Program for demonstrating global keyword
+#GlobalKwdEx3.py
+def update1():
+	#No Need to write global kwd bcoz we are updating global variables a and b values and Just we are accessing
+	c=a+1
+	d=b+1
+	print("In Update1() c={} and d={}".format(c,d))
+
+#main program
+a=10
+b=20 # Here a and b are called global variables
+print("In main program before update1()-->a={} and b={}".format(a,b))
+update1()
+print("In main program before update1()-->a={} and b={}".format(a,b))

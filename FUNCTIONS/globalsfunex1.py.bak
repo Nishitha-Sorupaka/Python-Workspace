@@ -1,0 +1,23 @@
+#globalsfunex1.py
+a=10
+b=20
+c=30
+d=40 # here 'a','b','c','d' are called global variables
+def fun1():
+	global c,d
+	c=c+1  #c=31
+	d=d+1	#d=41
+	a=100
+	b=200 # here 'a' and 'b' are called local variables
+	print("Local Variable a={}".format(a)) #a=100
+	print("Local Variable b={}".format(b)) #b=200
+	print("Global Variable c={}".format(c)) #c=31
+	print("Global Variable d={}".format(d)) #d=41
+	print("Global Variable a={}".format(globals()['a'])) #a=10
+	print("Global Variable b={}".format(globals()['b'])) #b=20
+	res=a+b+c+d
+	print("Result={}".format(res))
+
+
+#main program
+fun1()

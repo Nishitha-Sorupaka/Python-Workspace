@@ -1,0 +1,21 @@
+#kwdvarlenparamex1.py
+
+def disp( **a):
+	print("-"*50)
+	for k,v in a.items():
+		print("{}--->{}".format(k,v))
+
+
+
+
+
+
+
+
+#main program
+#disp(10) ----TypeError: disp() takes 0 positional arguments but 1 was given
+disp(sn0=10)
+disp(sno=10,sname="RS",hobby1="Reading",hobby2="Practicing")
+disp(eno=10,cname="RS",hobby1="Reading",hobby2="Practicing")
+disp(city="TS",capital="HYD")
+disp(subject="PYTHON")

@@ -1,0 +1,8 @@
+#globalkwdex1.py
+
+a=10 #global variable
+def increment():
+	 print("Val of a in increment()={}".format(a))
+
+#main program
+increment()

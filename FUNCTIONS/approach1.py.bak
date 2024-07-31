@@ -1,0 +1,11 @@
+#Functions
+#approach1.py
+
+def sumop(a,b):
+	c=a+b
+	return c
+
+
+
+res=sumop(2,5)
+print("Sum ={}".format(res))

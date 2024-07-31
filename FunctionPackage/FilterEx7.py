@@ -1,0 +1,10 @@
+#FilterEx7.py
+line=input("Enter a line of text:")
+print("-"*40)
+print("Given line: {}".format(line))
+print("-"*40)
+words=line.split()
+print("Given words=",words)
+print("-"*40)
+words3len=list(filter(lambda n:len(n)>=3,words))
+print("Words with 3 in length={}".format(words3len))
